@@ -169,15 +169,15 @@ class Field extends EntityAbstract
  */
 abstract class TypeField
 {
-	const EMAIL = 1;
-	const TEL = 2;
-	const TEXTAREA = 3;
-	const NUMERIC = 4;
-	const STRING = 5;
-	const DATE = 6;
-	const LISTE = 7;
-	const CHECKBOX = 8;
-	const RADIOBUTTON = 9;
+	const EMAIL = 'email';
+	const TEL = 'phone';
+	const TEXTAREA = 'textArea';
+	const NUMERIC = 'numeric';
+	const STRING = 'textField';
+	const DATE = 'date';
+	const LISTE = 'singleSelectList';
+	const CHECKBOX = 'multipleSelectList';
+	const RADIOBUTTON = 'singleSelectList';
 
 }
 
